@@ -1,0 +1,89 @@
+
+.rbit-import-block {
+    /*max-width: 900px; */
+    width: 100%;
+    flex-wrap: wrap;
+
+    margin: auto;
+}
+
+.rbit-settings-block {
+    max-width: 900px; margin: auto;
+}
+
+.rbit-settings-block h2, .rbit-import-block h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.rbit_table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.rbit_table td, .rbit_table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/*.rbit_table tr:nth-child(even){background-color: #f2f2f2;}*/
+
+.rbit_table tr:hover {background-color: #ddd;}
+
+.rbit_table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+.rbit_seleck_block
+{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.rbit_button
+{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.rbit_green
+{
+    background-color: #7bf187;
+}
+
+.rbit_blue
+{
+    background-color: #abdcf1;
+}
+
+.rbit-action-text {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+/* Product */
+.rbit-product-shipping {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 12px;
+    font-weight: 400;
+    width: 95%;
+}
+
+#primavera_wrapper{
+    max-width: 1300px;
+    margin: auto;
+}
